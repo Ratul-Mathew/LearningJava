@@ -36,7 +36,7 @@ public class LinkedListVsArrayList {
 		System.out.println("Time taken by LinkedList [Insertion + Deletion] = "+((double) (stopTime2 - startTime2) / 1_000_000_000) + " seconds");
 		
 		
-		System.out.println("\n\n=================[ LinkedList- Search]================================");
+		System.out.println("\n\n=================[ ArrayList- Search]=================================");
 		long startTime1 = System.nanoTime();
 		searchList(arrayList);
 		long stopTime1 = System.nanoTime();
@@ -65,7 +65,7 @@ List size after deletion  = 995000
 Time taken by LinkedList [Insertion + Deletion] = 0.836311736 seconds
 
 
-=================[ LinkedList- Search]================================
+=================[ ArrayList- Search]=================================
 Time taken by ArrayList [Search] = 0.366446759 seconds
 
 
